@@ -1,0 +1,47 @@
+#headerr {
+  background-image:url(https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=600) ;
+background-size: cover;
+  background-repeat: no-repeat;
+padding:822px 10px  10px  10px  ;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top:50px;
+  text-align:center;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:white;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+
+
+.imgs{
+  width:24%;
+  height:85%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left:300px;
+  padding: 10px;
+}
+.grid-item {
+  
+  padding: 30px;
+  font-size: 50%;
+  
+}
+.para{
+  font-family:serif;
+  font-size:22px ;
+  margin-left:2%;
+}
